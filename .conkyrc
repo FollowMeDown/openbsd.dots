@@ -1,0 +1,41 @@
+alignment bottom_left
+background no
+border_width 0
+cpu_avg_samples 2
+default_color white
+default_outline_color white
+default_shade_color white
+draw_borders no
+draw_graph_borders no
+draw_outline no
+draw_shades no
+use_xft yes
+xftfont Terminus:size=9
+gap_x 10
+gap_y 5 
+minimum_size 0 0
+net_avg_samples 2
+no_buffers yes
+double_buffer yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+own_window no
+own_window_class Conky
+own_window_type desktop
+stippled_borders 0
+update_interval 1.0
+uppercase no
+use_spacer none
+show_graph_scale no
+show_graph_range no
+own_window_argb_visual yes
+own_window_transparent yes
+
+TEXT
+
+${color grey}Date:$color ${time %H:%M} - ${time %a, %d %b} \
+${color grey}RAM:$color $mem/$memmax \
+${color grey}CPU:$color $cpu% \
+${color grey}Fs: /: $color${fs_free /}/${fs_size /}${color grey} /home: $color${fs_free /home}/${fs_size /home} \
+${color grey}Up: ${color}${upspeed wpi0} ${color}${color grey}Down:${color} ${downspeed wpi0}% 

@@ -1,0 +1,9 @@
+! $OpenBSD: dot.Xdefaults,v 1.3 2014/07/10 10:22:59 jasper Exp $
+
+XTerm*loginShell: 	    true
+XTerm*faceSize:		    10
+Xterm*toolBar: 		    off
+XTerm*saveLines: 	    10000
+XTerm*vt100.geometry: 	85x30
+XTerm*faceName: 	    terminus
+XTerm*scrollBar: 	    false

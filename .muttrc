@@ -1,0 +1,26 @@
+# RECEIVING MAIL
+set imap_user = "deface@posteo.de"
+set folder = "imaps://posteo.de:m993"
+set spoolfile="imaps://posteo.de/INBOX"
+set postponed="imaps://posteo.de/Drafts"
+set record="imaps://posteo.de/Sent"
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+set move = no
+
+# SENDING MAIL
+set copy=yes
+set smtp_url = "smtp://posteo.de:587/"
+set from="deface@posteo.de"
+set realname='Oleg Pahl'
+
+# CHECK
+set attribution_locale=C
+set imap_keepalive=300
+set use_from=yes
+set editor=vim
+set beep_new=yes
+set sort = reverse-date-received
+set net_inc=5
+set ssl_starttls=yes

@@ -1,0 +1,25 @@
+fontname "Terminus:pixelsize=12"
+
+sticky yes
+
+command surf "surf -g www.duckduckgo.com"
+command htop "xterm -e htop"
+command vide "vlc"
+command file "xterm -e nnn"
+command lock "i3lock"
+
+autogroup 3 "xterm,Xterm"
+
+ignore xclock
+ignore vlc
+ignore conky
+
+#bind-key CM-r window-menu-label
+bind-key CM-r sakura
+
+bind-mouse M-2 window-lower
+bind-mouse M-3 window-resize
+
+bind-key 4-d "rofi -show run"
+bind-key 4-t "zsh -e tmux"
+bind-key 4-x "i3lock"
