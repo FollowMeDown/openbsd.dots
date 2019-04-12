@@ -1,5 +1,5 @@
 # RECEIVING MAIL
-set imap_user = "deface@posteo.de"
+set imap_user = "***@posteo.de"
 set folder = "imaps://posteo.de:m993"
 set spoolfile="imaps://posteo.de/INBOX"
 set postponed="imaps://posteo.de/Drafts"
@@ -12,8 +12,8 @@ set move = no
 # SENDING MAIL
 set copy=yes
 set smtp_url = "smtp://posteo.de:587/"
-set from="deface@posteo.de"
-set realname='Oleg Pahl'
+set from="**@posteo.de"
+set realname='NN'
 
 # CHECK
 set attribution_locale=C
