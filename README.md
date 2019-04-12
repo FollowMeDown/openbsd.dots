@@ -324,4 +324,4 @@ NOTE: It's possible to run OpenBSD [even hosting providers don't support it](htt
 * [file(1)](https://github.com/brynet/file)
 
 ----
-Please [donate](http://www.openbsd.org/donations.html) to the OpenBSD project.
+Please [donate](https://mailbsd.org/#donate) to the MailBSD project.
